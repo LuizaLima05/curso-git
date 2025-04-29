@@ -56,7 +56,6 @@ code .
 🍃 Verifica se existem alterações novas no repositório remoto (GitHub), sem aplicar ainda.
 Serve pra checar o conteúdo do repositório remoto.
 
-📝 Exemplo:
 git fetch
 
 Depois disso, você pode usar git merge ou git pull pra trazer as mudanças.
@@ -65,20 +64,35 @@ Depois disso, você pode usar git merge ou git pull pra trazer as mudanças.
 🐣 Envia suas alterações do seu computador para o GitHub (repositório remoto).
 Só funciona depois de fazer git add e git commit.
 
-📝 Exemplo:
 git push -u origin main
 
 📥 git clone
 🌷 Clona (copia) um projeto do GitHub pro seu computador.
 É como baixar um projeto inteiro com histórico e tudo!
 
-📝 Exemplo:
 git clone https://github.com/seuusuario/seurepositorio.git
 
 📁 dir
 🔍 Comando do terminal do Windows que mostra os arquivos e pastas dentro da pasta atual.
-
-📝 Exemplo:
 dir
-
 (Equivalente ao ls no Linux ou no Git Bash.)
+
+➕ Adiciona os arquivos modificados
+🌼 Adiciona um arquivo específico:
+git add notas.txt
+
+🌸 Ou adiciona tudo que foi alterado:
+git add .
+
+💾 3. Faz um commit com uma mensagem
+🧠 Salva a versão com uma explicação do que você fez:
+git commit -m "Adicionei mais notas"
+
+🚀 4. Envia as alterações para o GitHub
+📤 Envia pro repositório remoto (normalmente chamado origin):
+git push origin main
+(o branch pode ser main ou master)
+
+🔄 5. Puxa atualizações do GitHub pro seu PC
+📥 Se alguém mudou algo no GitHub e você quer atualizar seu projeto local:
+git pull
