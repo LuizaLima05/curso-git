@@ -1,0 +1,54 @@
+💡 O que é o Git e o GitHub: Git é um sistema de controle de versão — salva o histórico de alterações dos arquivos. E o GitHub é onde você guarda esses projetos online, 
+trabalha com outras pessoas e acompanha tudo com histórico.
+
+🚀 Começando um projeto com Git
+🌸 Crie a pasta do projeto:
+mkdir nome-do-projeto (cria)
+cd nome-do-projeto (abre)
+
+🌸 Inicie o Git:
+git init
+(Transforma a pasta num repositório Git)
+
+🧼 Comandos básicos
+🌼 Verificar status:
+git status
+(Mostra o que foi modificado ou adicionado)
+
+🌼 Adicionar arquivos para o Git rastrear:
+git add .
+(Adiciona todos os arquivos pra serem salvos no próximo commit)
+
+🌼 Fazer um commit (salvar alteração):
+git commit -m "mensagem explicando o que você fez"
+Exemplo:
+git commit -m "Adicionei página de login"
+
+🌼 Ver o histórico de commits:
+git log
+
+🌿 Trabalhando com branches (ramificações)
+🌷 Ver as branches existentes:
+git branch
+
+🌷 Criar uma nova branch:
+git branch nome-da-branch
+
+🌷 Trocar para outra branch:
+git checkout nome-da-branch
+
+🌷 Criar e já trocar pra nova branch:
+git checkout -b nome-da-branch
+
+☁️ Enviando para o GitHub (repositório remoto)
+🌈 Adicionar o repositório remoto:
+git remote add origin https://github.com/seuusuario/seurepositorio.git
+
+🌈 Enviar os commits para o GitHub:
+git push -u origin master
+(ou main, dependendo do nome da branch principal)
+
+✨ Dica bônus
+🧸 Abrir o projeto no VS Code:
+code .
+
