@@ -84,15 +84,35 @@ git add notas.txt
 🌸 Ou adiciona tudo que foi alterado:
 git add .
 
-💾 3. Faz um commit com uma mensagem
+💾 Faz um commit com uma mensagem
 🧠 Salva a versão com uma explicação do que você fez:
 git commit -m "Adicionei mais notas"
 
-🚀 4. Envia as alterações para o GitHub
+🚀 Envia as alterações para o GitHub
 📤 Envia pro repositório remoto (normalmente chamado origin):
 git push origin main
 (o branch pode ser main ou master)
 
-🔄 5. Puxa atualizações do GitHub pro seu PC
+🔄 Puxa atualizações do GitHub pro seu PC
 📥 Se alguém mudou algo no GitHub e você quer atualizar seu projeto local:
 git pull
+
+⚔️ Pode acontecer conflitos no Git? Sim! 💥
+🌸 Quando duas pessoas editam o mesmo trecho de código ao mesmo tempo, e cada uma tenta salvar (fazer commit e push), o Git não sabe qual versão manter.
+🧹 Aí você escolhe qual versão quer manter (ou mistura as duas), e remove aquelas linhas com sinais de conflito.
+
+✅ Passos pra resolver:
+1️⃣ git pull (ou git merge nomedabranch)
+💡 Git detecta o conflito
+
+2️⃣ Abrir o arquivo que deu conflito
+
+3️⃣ Escolher e arrumar o conteúdo
+
+4️⃣ git add nome-do-arquivo
+
+5️⃣ git commit -m "Resolvido conflito"
+
+6️⃣ git push origin main
+
+
