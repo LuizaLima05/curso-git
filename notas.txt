@@ -52,3 +52,33 @@ git push -u origin master
 🧸 Abrir o projeto no VS Code:
 code .
 
+🛰️ git fetch
+🍃 Verifica se existem alterações novas no repositório remoto (GitHub), sem aplicar ainda.
+Serve pra checar o conteúdo do repositório remoto.
+
+📝 Exemplo:
+git fetch
+
+Depois disso, você pode usar git merge ou git pull pra trazer as mudanças.
+
+📤 git push
+🐣 Envia suas alterações do seu computador para o GitHub (repositório remoto).
+Só funciona depois de fazer git add e git commit.
+
+📝 Exemplo:
+git push -u origin main
+
+📥 git clone
+🌷 Clona (copia) um projeto do GitHub pro seu computador.
+É como baixar um projeto inteiro com histórico e tudo!
+
+📝 Exemplo:
+git clone https://github.com/seuusuario/seurepositorio.git
+
+📁 dir
+🔍 Comando do terminal do Windows que mostra os arquivos e pastas dentro da pasta atual.
+
+📝 Exemplo:
+dir
+
+(Equivalente ao ls no Linux ou no Git Bash.)
